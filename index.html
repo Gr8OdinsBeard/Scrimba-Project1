@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="title">HOME</h3>
+                <p id="home-score">0</p>
+                <button class="score-button" onclick="increment('home', 1)">+1</button>
+                <button class="score-button" onclick="increment('home', 2)">+2</button>
+                <button class="score-button" onclick="increment('home', 3)">+3</button>
+            </div>
+            <div>
+                <h3 class="title">GUEST</h3>
+                <h3 id="guest-score">0</h3>
+                <button class="score-button" onclick="increment('guest', 1)">+1</button>
+                <button class="score-button" onclick="increment('guest', 2)">+2</button>
+                <button class="score-button" onclick="increment('guest', 3)">+3</button>
+            </div>
+        </div>
+        <br>
+        <div class="container" style="justify-content: center">
+            <button class="new" onclick="initialiseClock('clockdiv')">NEW GAME</button>
+            <button class="reset" onclick="reset()">END GAME</button>
+        </div>
+        <br>
+        <div class="container" style="justify-content: center; margin-top:2%">
+            <button class="period" id="period-1">P1</button>
+            <button class="period" id="period-2">P2</button>
+            <button class="period" id="period-3">P3</button>
+            <button class="period" id="period-4">P4</button>
+        </div>
+        
+        <div class="container">
+            <div id="clockdiv" style="width:30%; justify-content: center;"></div>
+        </div>
+
+        <div class="container" id="winner" style="visibility: hidden;">
+        </div>
+        <script src="index.js"></script>
+        <script src="confetti.js"></script>
+    </body>
+</html>

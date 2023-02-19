@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#clockdiv, #guest-score, #home-score {
+    background-color: black;
+    font-family: "Cursed Timer ULiL";
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F94F6D;
+    margin: 5%;
+}
+
+.new {
+    width: auto;
+    height: 45px;
+    background-color: #4ff95a;
+    font-weight: bold;
+    font-size: 25px; 
+}
+
+.period {
+    border-color: #9AABD8;
+    border-radius: 100%;
+    height: 30px;
+}
+
+.reset {
+    width: auto;
+    height: 45px;
+    background-color: #F94F6D;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.score-button {
+    border-color: #9AABD8;
+    color: #9AABD8;
+    width: 55px;
+    height: 45px;
+    font-family: "Cursed Timer ULiL";
+    background-color: #1B244A;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 15%;
+}
+
+.title, #winner {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+    margin-bottom: 15%;
+}
+
+/* #winner {
+    visibility: hidden;
+} */
